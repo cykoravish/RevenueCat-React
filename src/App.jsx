@@ -1,13 +1,14 @@
-import './App.css'
-import Navbar from './components/Navbar'
+import "./App.css";
+import LatestPost from "./components/LatestPost";
+import Navbar from "./components/Navbar";
 
 function App() {
-
   return (
-  <div>
-  <Navbar/>
-  </div>
-  )
+    <div className="w-full">
+      <Navbar />
+      <LatestPost />
+    </div>
+  );
 }
 
-export default App
+export default App;

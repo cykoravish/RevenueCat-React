@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import logo from "../assets/logo/logo.png";
+import logo from "../assets/images/logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBars,
@@ -9,9 +9,8 @@ import {
 
 export default function Navbar() {
   const [showMenuBar, setShowMenuBar] = useState(false);
-  console.log(showMenuBar);
   return (
-    <nav className="bg-gray-50 flex justify-between items-start w-full relative lg:w-auto py-6 lg:px-3 px-14">
+    <nav className="bg-gray-50 w-full flex justify-between items-center fixed py-6 lg:px-3 px-14">
       <div className="logo">
         <img src={logo} alt="logo" width={150} />
       </div>
@@ -21,25 +20,25 @@ export default function Navbar() {
           style={{ maxHeight: showMenuBar ? "60vh" : "0" }}
           className={`${
             showMenuBar
-              ? "bg-gray-50 flex items-center justify-center font-semibold text-lg lg:flex-row lg:items-start absolute lg:static left-0 w-full top-14 flex-col md:items-center md:gap-[4vw] gap-8 h-[60vh] cursor-pointer"
-              : "py-3 lg:flex items-center justify-center font-semibold text-lg cursor-pointer gap-8 hidden"
-          } `}
+              ? "bg-gray-50 flex items-center justify-center font-medium text-lg lg:flex-row lg:items-start absolute lg:static left-0 w-full top-14 flex-col md:items-center md:gap-[4vw] gap-8 h-[60vh] cursor-pointer"
+              : "py-3 lg:flex items-center justify-center font-medium text-lg cursor-pointer gap-8 hidden"
+          }`}
         >
-          <li>
+          <li className="hover:bg-gray-400 w-full flex justify-center rounded-full h-10">
             <button className="flex items-center">
               Product
               <FontAwesomeIcon icon={faCaretDown} className="pl-2" />
             </button>
           </li>
-          <li>
+          <li className="hover:bg-gray-400 w-full flex justify-center rounded-full h-10">
             <button className="flex items-center">
               Docs
               <FontAwesomeIcon icon={faCaretDown} className="pl-2" />
             </button>
           </li>
-          <li>Customers</li>
-          <li>Pricing</li>
-          <li>Blog</li>
+          <li className="hover:bg-gray-400 w-full text-center rounded-full h-10">Customers</li>
+          <li className="hover:bg-gray-400 w-full text-center rounded-full h-10">Pricing</li>
+          <li className="hover:bg-gray-400 w-full text-center rounded-full h-10">Blog</li>
         </ul>
       </div>
 

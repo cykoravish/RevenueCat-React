@@ -2,11 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* custom.css */
-
-@layer utilities {
-    .transition-max-h {
-      transition-property: max-height;
-    }
-  }
-  
+* {
+  font-family: sans-serif
+}
