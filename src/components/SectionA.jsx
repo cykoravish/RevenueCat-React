@@ -118,7 +118,7 @@ export default function SectionA() {
           </div>
         ))}
         <div className="lastCard">
-            <img src={cardImg} className="rounded-lg overflow-hidden border-2 border-gray-300 h-full" />
+            <img src={cardImg} className="rounded-lg overflow-hidden border-2 border-gray-300 h-full w-full" />
         </div>
       </div>
     </>

@@ -3,6 +3,7 @@ import LatestPost from "./components/LatestPost";
 import Navbar from "./components/Navbar";
 import SectionA from "./components/SectionA";
 import SectionB from "./components/SectionB";
+import SectionC from "./components/SectionC";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <LatestPost />
       <SectionA/>
       <SectionB/>
+      <SectionC/>
     </div>
   );
 }
