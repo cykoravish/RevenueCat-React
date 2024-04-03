@@ -13,8 +13,8 @@ export default function LatestPost() {
           className="rounded-lg m-auto md:h-full md:w-full"
         />
       </div>
-      <div className="flex-1 flex flex-col gap-4">
-        <button className="border-green-500 border-2 px-3 py-1 rounded-full font-semibold text-green-500 w-32 md:mx-0 mx-auto">
+      <div className="flex-1 flex flex-col gap-4 justify-center items-center">
+        <button className="border-green-500 border-2 px-3 py-1 rounded-full font-semibold text-green-500 w-32 md:mx-0 mx-auto hover:text-white hover:bg-green-500">
           Latest Post
         </button>
         <h1 className="font-semibold text-2xl">
