@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar";
 import SectionA from "./components/SectionA";
 import SectionB from "./components/SectionB";
 import SectionC from "./components/SectionC";
+import SectionD from "./components/SectionD";
 import Subscribe from "./components/Subscribe";
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <SectionB/>
       <SectionC/>
       <Subscribe/>
+      <SectionD/>
     </div>
   );
 }
