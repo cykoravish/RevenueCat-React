@@ -1,7 +1,6 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
   optimizeDeps: {
@@ -9,12 +8,4 @@ export default defineConfig({
   },
 });
 
-// vite.config.js
-// import { defineConfig } from 'vite';
 
-// export default defineConfig({
-//   // Other Vite configurations...
-// optimizeDeps: {
-//   include: ['@fortawesome/free-brands-svg-icons'], // Make sure to include the Font Awesome package
-// },
-// });

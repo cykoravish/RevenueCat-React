@@ -1,7 +1,6 @@
 import { faWifi } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
-import cardImg from "../assets/images/card.png";
 import React from "react";
 import Card from "./Card";
 
@@ -98,9 +97,6 @@ export default function SectionA() {
       <div className="">
        <Card cardsData={cardsData}/>
       </div>
-        {/* <div className="lastCard">
-            <img src={cardImg} className="rounded-lg overflow-hidden border-2 border-gray-300 h-full w-full" />
-        </div> */}
     </>
   );
 }
