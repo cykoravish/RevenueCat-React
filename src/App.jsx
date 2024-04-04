@@ -5,6 +5,7 @@ import SectionA from "./components/SectionA";
 import SectionB from "./components/SectionB";
 import SectionC from "./components/SectionC";
 import SectionD from "./components/SectionD";
+import SectionE from "./components/SectionE";
 import Subscribe from "./components/Subscribe";
 
 function App() {
@@ -12,11 +13,12 @@ function App() {
     <div className="w-full">
       <Navbar />
       <LatestPost />
-      <SectionA/>
-      <SectionB/>
-      <SectionC/>
-      <Subscribe/>
-      <SectionD/>
+      <SectionA />
+      <SectionB />
+      <SectionC />
+      <Subscribe />
+      <SectionD />
+      <SectionE />
     </div>
   );
 }

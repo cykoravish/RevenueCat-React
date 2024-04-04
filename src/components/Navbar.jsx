@@ -24,21 +24,21 @@ export default function Navbar() {
               : "py-3 lg:flex items-center justify-center font-medium text-lg cursor-pointer gap-8 hidden"
           }`}
         >
-          <li className="hover:bg-gray-400 w-full flex justify-center rounded-full h-10">
+          <li className="hover:bg-gray-300 w-full flex justify-center rounded-full h-10 md:px-2 transition-colors duration-500">
             <button className="flex items-center">
               Product
               <FontAwesomeIcon icon={faCaretDown} className="pl-2" />
             </button>
           </li>
-          <li className="hover:bg-gray-400 w-full flex justify-center rounded-full h-10">
+          <li className="hover:bg-gray-300 w-full flex justify-center rounded-full h-10 md:px-2 transition-colors duration-500">
             <button className="flex items-center">
               Docs
               <FontAwesomeIcon icon={faCaretDown} className="pl-2" />
             </button>
           </li>
-          <li className="hover:bg-gray-400 w-full text-center rounded-full h-10">Customers</li>
-          <li className="hover:bg-gray-400 w-full text-center rounded-full h-10">Pricing</li>
-          <li className="hover:bg-gray-400 w-full text-center rounded-full h-10">Blog</li>
+          <li className="hover:bg-gray-300 w-full text-center rounded-full h-10 md:px-2 transition-colors duration-500 lg:flex items-center">Customers</li>
+          <li className="hover:bg-gray-300 w-full text-center rounded-full h-10 md:px-2 transition-colors duration-500 lg:flex items-center">Pricing</li>
+          <li className="hover:bg-gray-300 w-full text-center rounded-full h-10 md:px-2 transition-colors duration-500 lg:flex items-center">Blog</li>
         </ul>
       </div>
 
