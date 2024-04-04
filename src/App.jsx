@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./components/Footer";
 import LatestPost from "./components/LatestPost";
 import Navbar from "./components/Navbar";
 import SectionA from "./components/SectionA";
@@ -19,6 +20,7 @@ function App() {
       <Subscribe />
       <SectionD />
       <SectionE />
+      <Footer/>
     </div>
   );
 }
